@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rybelsusguide.org/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>https://rybelsusguide.org/posts/rybelsus-complete-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>https://rybelsusguide.org/posts/rybelsus-dosage-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>https://rybelsusguide.org/posts/rybelsus-side-effects.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>https://rybelsusguide.org/posts/rybelsus-360-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+</urlset>
