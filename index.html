@@ -13,10 +13,10 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="RybelsusGuide.org — Oral Semaglutide for Weight Loss">
   <meta name="twitter:description" content="Honest guides on Rybelsus — dosing, side effects, clinical results, vendor reviews.">
-  <meta name="theme-color" content="#060e0b">
+  <meta name="theme-color" content="#fafaf9">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="canonical" href="https://rybelsusguide.org/">
@@ -26,7 +26,7 @@
     "@type": "WebSite",
     "name": "RybelsusGuide",
     "url": "https://rybelsusguide.org",
-    "description": "Evidence-based guides on Rybelsus (oral semaglutide) for weight loss — dosing, side effects, clinical results, and vendor reviews."
+    "description": "Evidence-based guides on Rybelsus (oral semaglutide) for weight loss."
   }
   </script>
 </head>
@@ -49,32 +49,94 @@
   </nav>
 
   <header class="hero">
-    <div class="hero-pill">Oral GLP-1 · No Injections · FDA Approved</div>
-    <h1>The <em>Complete Guide</em> to Rybelsus for Weight Loss</h1>
-    <p class="hero-sub">Oral semaglutide, explained honestly. Real clinical data, the dosing protocol that works, what side effects to actually expect, and how to get results that last.</p>
-    <div class="hero-actions">
-      <a href="posts/rybelsus-complete-guide.html" class="btn btn-primary">Read the Complete Guide ↓</a>
-      <a href="posts/rybelsus-360-review.html" class="btn btn-outline">Where to Buy →</a>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="hero-stat-num">14mg</div>
-        <div class="hero-stat-label">Max daily dose</div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-pill">FDA Approved · Oral GLP-1 · No Injections</div>
+        <h1>Lose weight with<br><em>Rybelsus</em> — the pill, not the needle</h1>
+        <p class="hero-sub">Honest, evidence-based guides on oral semaglutide. Real dosing protocols, what the clinical trials actually showed, and how to get results that last.</p>
+        <div class="hero-actions">
+          <a href="posts/rybelsus-complete-guide.html" class="btn btn-primary">Read the Complete Guide</a>
+          <a href="posts/rybelsus-360-review.html" class="btn btn-outline">Where to Buy →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num">~10%</div>
+            <div class="hero-stat-label">Average body weight lost</div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">14mg</div>
+            <div class="hero-stat-label">Max daily dose</div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">0</div>
+            <div class="hero-stat-label">Injections needed</div>
+          </div>
+        </div>
       </div>
-      <div class="hero-divider"></div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">~10%</div>
-        <div class="hero-stat-label">Avg. body weight lost</div>
-      </div>
-      <div class="hero-divider"></div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">0</div>
-        <div class="hero-stat-label">Injections required</div>
-      </div>
-      <div class="hero-divider"></div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">2019</div>
-        <div class="hero-stat-label">FDA approval year</div>
+
+      <div class="hero-visual">
+        <svg class="hero-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="pillGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#e11d48"/>
+              <stop offset="100%" stop-color="#fb7185"/>
+            </linearGradient>
+            <linearGradient id="pillShadow" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+              <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+            </linearGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="8" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+
+          <!-- Outer orbit ring -->
+          <circle class="orbit-ring" cx="200" cy="200" r="175" stroke="#fce7f0" stroke-width="1" stroke-dasharray="6 5"/>
+
+          <!-- Middle ring -->
+          <circle cx="200" cy="200" r="140" stroke="#fce7f0" stroke-width="1.5"/>
+
+          <!-- Inner ring -->
+          <circle class="orbit-ring-2" cx="200" cy="200" r="105" stroke="#fecdd3" stroke-width="1" stroke-dasharray="4 6"/>
+
+          <!-- Orbit dots on outer ring -->
+          <circle cx="200" cy="25" r="6" fill="#fda4af"/>
+          <circle cx="355" cy="130" r="4" fill="#fecdd3"/>
+          <circle cx="355" cy="270" r="6" fill="#fda4af"/>
+          <circle cx="200" cy="375" r="4" fill="#fecdd3"/>
+          <circle cx="45"  cy="270" r="6" fill="#fda4af"/>
+          <circle cx="45"  cy="130" r="4" fill="#fecdd3"/>
+
+          <!-- Background circle -->
+          <circle cx="200" cy="200" r="85" fill="#fff5f7"/>
+
+          <!-- Main pill shape -->
+          <rect class="pill-pulse" x="130" y="175" width="140" height="50" rx="25" fill="url(#pillGrad)" filter="url(#glow)"/>
+          <!-- Pill highlight -->
+          <rect x="130" y="175" width="140" height="50" rx="25" fill="url(#pillShadow)"/>
+          <!-- Pill divider line -->
+          <line x1="200" y1="177" x2="200" y2="223" stroke="white" stroke-width="2" opacity="0.5"/>
+
+          <!-- Labels floating around pill -->
+          <rect x="54" y="178" width="54" height="22" rx="11" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+          <text x="81" y="193" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#e11d48" text-anchor="middle">GLP-1</text>
+
+          <rect x="294" y="178" width="54" height="22" rx="11" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+          <text x="321" y="193" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#e11d48" text-anchor="middle">14 mg</text>
+
+          <rect x="148" y="110" width="58" height="22" rx="11" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+          <text x="177" y="125" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#e11d48" text-anchor="middle">FDA ✓</text>
+
+          <rect x="148" y="268" width="58" height="22" rx="11" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+          <text x="177" y="283" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#e11d48" text-anchor="middle">Daily pill</text>
+
+          <!-- Weight loss arc / progress indicator -->
+          <path d="M 200 60 A 140 140 0 0 1 340 200" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
+          <circle cx="340" cy="200" r="5" fill="#e11d48" opacity="0.4"/>
+        </svg>
       </div>
     </div>
   </header>
@@ -114,7 +176,7 @@
       <article class="card featured reveal" data-category="guide">
         <span class="card-tag">Complete Guide</span>
         <h3><a href="posts/rybelsus-complete-guide.html">Rybelsus for Weight Loss: Everything You Need to Know</a></h3>
-        <p>The only guide you need before starting oral semaglutide. How it works, what the clinical trials actually showed (including the numbers the ads don't mention), who it's right for, and how to set yourself up for real results rather than a temporary fix.</p>
+        <p>The only guide you need before starting oral semaglutide. How it works, what the clinical trials actually showed, who it's right for, and how to set yourself up for real, lasting results.</p>
         <div class="card-meta">
           <span>18 min read · Updated Feb 2026</span>
           <span class="card-arrow">↗</span>
@@ -124,7 +186,7 @@
       <article class="card reveal" data-category="dosage">
         <span class="card-tag">Dosage</span>
         <h3><a href="posts/rybelsus-dosage-guide.html">Rybelsus Dosage Guide: The 3mg → 7mg → 14mg Protocol</a></h3>
-        <p>A step-by-step breakdown of the titration schedule, the critical empty-stomach rule, when to escalate your dose, and what to do when you hit a plateau.</p>
+        <p>Step-by-step breakdown of the titration schedule, the critical empty-stomach rule, when to escalate, and what to do when results stall.</p>
         <div class="card-meta">
           <span>10 min read</span>
           <span class="card-arrow">↗</span>
@@ -133,8 +195,8 @@
 
       <article class="card reveal" data-category="safety">
         <span class="card-tag">Safety</span>
-        <h3><a href="posts/rybelsus-side-effects.html">Rybelsus Side Effects & Safety: The Honest Breakdown</a></h3>
-        <p>What to expect, what's temporary, what's serious, and who should never use semaglutide. Covers GI effects, pancreatitis risk, muscle loss, contraindications, and full drug interactions.</p>
+        <h3><a href="posts/rybelsus-side-effects.html">Rybelsus Side Effects &amp; Safety: The Honest Breakdown</a></h3>
+        <p>What to expect, what's temporary, what's serious, and who should never use semaglutide. Covers GI effects, pancreatitis risk, muscle loss, and full contraindications.</p>
         <div class="card-meta">
           <span>12 min read</span>
           <span class="card-arrow">↗</span>
@@ -143,8 +205,8 @@
 
       <article class="card reveal" data-category="review">
         <span class="card-tag">Vendor Review</span>
-        <h3><a href="posts/rybelsus-360-review.html">Rybelsus-360 Review: The Most Affordable Way to Buy Rybelsus Online</a></h3>
-        <p>US retail price for Rybelsus hits $900/month without insurance. Rybelsus-360 changes that. Our honest review covering product quality, shipping, pricing, and customer support.</p>
+        <h3><a href="posts/rybelsus-360-review.html">Rybelsus-360 Review: The Most Affordable Way to Buy Online</a></h3>
+        <p>US retail price hits $900/month without insurance. Rybelsus-360 changes that. Our honest review — product quality, shipping, pricing, and customer support.</p>
         <div class="card-meta">
           <span>8 min read</span>
           <span class="card-arrow">↗</span>
