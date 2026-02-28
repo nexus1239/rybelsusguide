@@ -767,5 +767,97 @@ main {
   margin-bottom: 0.5rem;
 }
 
+/* ── Vendor promo banner ── */
+.vendor-banner {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+  border-radius: var(--radius);
+  padding: 2.5rem 2rem;
+  margin: 3rem auto;
+  max-width: var(--content-width);
+  text-align: center;
+  box-shadow: var(--shadow-accent);
+  position: relative;
+  overflow: hidden;
+}
+.vendor-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 50%;
+}
+.vendor-banner::after {
+  content: '';
+  position: absolute;
+  bottom: -40%;
+  left: -10%;
+  width: 200px;
+  height: 200px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 50%;
+}
+.vendor-banner-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.18);
+  color: #fff;
+  font-family: var(--font-head);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.9rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.vendor-banner h3 {
+  font-family: var(--font-head);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+.vendor-banner p {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+.vendor-banner .btn-vendor {
+  display: inline-block;
+  background: #fff;
+  color: var(--accent);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 2.5rem;
+  border-radius: 100px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  z-index: 1;
+}
+.vendor-banner .btn-vendor:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+.vendor-banner-stars {
+  color: #fbbf24;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.4rem;
+  position: relative;
+  z-index: 1;
+}
+
 /* ── Screen-reader only ── */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
