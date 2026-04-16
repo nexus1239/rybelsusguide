@@ -2,6 +2,8 @@
   "name": "rybelsusguideorg",
   "compatibility_date": "2026-02-19",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "html_handling": "none",
+    "not_found_handling": "404-page"
   }
 }
